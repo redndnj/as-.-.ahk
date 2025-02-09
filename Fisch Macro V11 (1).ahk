@@ -1,6 +1,6 @@
 ﻿#SingleInstance Force
 setkeydelay, -20
-setmousedelay, -100
+setmousedelay, -10
 setbatchlines, -1
 SetTitleMatchMode 2
 
@@ -16,7 +16,7 @@ AutoGraphicsDelay := 10
 
 ; Set to true to automatically zoom in the camera
 AutoZoomInCamera := true
-AutoZoomDelay := 50
+AutoZoomDelay := 65
 
 ; Set to true to check for camera mode and enable it
 AutoEnableCameraMode := true
@@ -67,7 +67,7 @@ NavigationSpamDelay := 10
 ;     MINIGAME SETTINGS     ====================================================================================================;
 
 ; Bar size is automatically calculated, set manual value to override
-ManualBarSize := 264.052982
+ManualBarSize := 63.3
 ; Seconds for calculation to be considered failed
 BarCalculationFailsafe := 10
 ; Color range to scan for initial white bar
